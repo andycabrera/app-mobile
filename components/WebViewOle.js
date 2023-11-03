@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import WebView from "react-native-webview";
 
-const WebViewOle = ({ task, onDelete }) => {
+const WebViewOle = () => {
   return (
     <View style={{ flex: 1 }}>
-      <Text>Ejemplo de WebView en React Native</Text>
       <WebView
         source={{ uri: "https://www.ole.com.ar/" }}
         style={{ flex: 1 }}

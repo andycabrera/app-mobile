@@ -45,7 +45,7 @@ export const styles = StyleSheet.create({
     color: 'white',
   },
   buttonContainer: {
-    height: 50, // Ajusta la altura según tus necesidades
-    marginVertical: 10, // Espacio entre los botones
+    height: 50,
+    marginVertical: 10,
   },
 });
